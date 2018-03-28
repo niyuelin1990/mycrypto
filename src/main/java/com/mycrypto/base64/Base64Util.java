@@ -83,12 +83,12 @@ public class Base64Util {
         System.out.println("BASE64解密后:" + outputStr);
 
 
-        System.out.println("=======commons-codec base64 推荐使用=====");
+        System.out.println("=======commons-codec base64 推荐使用======");
         String encodeData = Base64Util.encodeData(inputStr);
         System.out.println("BASE64加密后:" + encodeData);
         System.out.println("BASE64解密后:" + Base64Util.decodeData(encodeData));
 
-        System.out.println("=======commons-codec base64 url 加解密=====");
+        System.out.println("=======commons-codec base64 url 加解密======");
         String urlEncodeData = Base64Util.urlEncodeData(inputStr);
         System.out.println("BASE64 url加密后:" +  urlEncodeData);
         System.out.println("BASE64解密后:" + Base64Util.decodeData(urlEncodeData));
