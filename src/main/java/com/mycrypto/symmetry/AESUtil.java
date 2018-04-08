@@ -1,6 +1,7 @@
 package com.mycrypto.symmetry;
 
-import org.bouncycastle.util.encoders.Hex;
+
+import org.spongycastle.util.encoders.Hex;
 
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;

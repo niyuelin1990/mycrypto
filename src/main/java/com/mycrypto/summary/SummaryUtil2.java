@@ -1,11 +1,10 @@
 package com.mycrypto.summary;
 
-import org.apache.commons.codec.digest.DigestUtils;
-import org.bouncycastle.util.encoders.Hex;
 import org.spongycastle.crypto.Digest;
 import org.spongycastle.crypto.digests.RIPEMD160Digest;
 import org.spongycastle.crypto.digests.RIPEMD256Digest;
 import org.spongycastle.crypto.digests.RIPEMD320Digest;
+import org.spongycastle.util.encoders.Hex;
 
 import javax.crypto.KeyGenerator;
 import javax.crypto.Mac;
